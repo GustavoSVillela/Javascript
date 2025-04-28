@@ -11,12 +11,12 @@ function contar(){
         var pass = Number (n3.value)
 
         for (var ini = Number (n1.value); ini <= fim; ini+=pass)
-            res.innerHTML += `${ini} 👉.. `
+            res.innerHTML += `${ini} 👉..`
     } else {
             var fim = Number (n2.value)
             var pass = Number (n3.value)
             for (var ini = Number (n1.value); ini >= fim; ini -= pass)
-                res.innerHTML += `${ini} 👉..  `
+                res.innerHTML += `${ini} 👉..`
         }
 
     
