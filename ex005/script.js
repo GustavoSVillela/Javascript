@@ -1,10 +1,11 @@
-let valores = [1,7,4,2,9]
-
-
-
-for(let pos in valores){
-    console.log(`A posicao ${pos} tem o valor ${valores[pos]}`)
-
+function parimp(n){
+    if(n%2==0){
+        return 'par'
+    } else {
+        return 'ímpar'
+    }
 }
-pos = valores.indexOf(7)
-console.log(`os valores esta no posicao ${pos}`)
+
+let res = parimp (11)
+
+console.log(res)
